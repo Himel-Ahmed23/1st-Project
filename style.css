@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*------- Header section -------*/
+.header {
+    background: #E8E3D2;
+    padding: 20px 50px 0 50px;
+}
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* box 1 */
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo i {
+    font-size: 35px;
+}
+.logo-first {
+    font-size: 1rem;
+    margin: 0px 5px;
+}
+.logo-sec {
+    font-size: 0.75rem;
+    margin: 0px 7px;
+}
+
+/* box 2 */
+.menu-text ul {
+    list-style: none;
+    display: flex;
+}
+.menu-text ul li {
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 300px;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu-text ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+/* box 3 */
+.menu-button i {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* box 4 */
+.left-banner {
+    text-align: left;
+}
+.left-banner p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #471B0E;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.left-banner h1 {
+    font-weight: 800;
+    font-size: 42px;
+    color: #343434;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 1.5rem;
+}
+.left-banner a {
+    text-decoration: none;
+}
+.left-banner a.btn {
+    background-color: white;
+    color: #471B0E;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.left-banner a.bg-dark {
+    background-color: #471B0E;
+    color: white;
+    margin-right: 10px;
+}
+.right-banner {
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+.banner-img {
+    width: 250px;
+    height: 300px;
+    margin-left: 15px;
+}
+.banner-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*------- About section ------- */
+.about {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+.left-about {
+    width: 450px;
+    margin-bottom: 15px;
+
+}
+.left-about img {
+    width: 100%;
+}
+.right-about {
+    text-align: left;
+}
+.right-about a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #471B0E;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.right-about h1 {
+    font-weight: 800;
+    font-size: 32px;
+    color: #343434;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 1.5rem;
+}
+.right-about p {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #343434;
+    margin-bottom: 1rem;
+}
+.right-about p.light-text {
+    color: black;
+    font-weight: 600;
+}
+.right-about ul {
+    list-style: none;
+}
+.right-about ul li {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #343434;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.right-about ul li i {
+    width: 10px;
+    margin-right: 5px;
+    color: #471B0E;
+}
+
+
+/*------- Service Section -------*/
+.service {
+    background: #E8E3D2;
+    padding: 50px;
+    text-align: center;
+}
+.service p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 13px;
+    color: #471B0E;
+    align-items: center;
+    margin-bottom: 0.85rem;
+}
+.service h1 {
+    font-weight: 800;
+    font-size: 36px;
+    color: #343434;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 1.5rem;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.card {
+    padding: 5px;
+}
+.card h6 {
+    font-weight: 800;
+    font-size: 16px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 15px 0;
+}
+.card p {
+    font-size: 11px;
+    color: black;
+    font-weight: 300;
+}
+.card .arrow i {
+    font-size: 12px;
+
+}
+.card .icon i {
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+/*------- Features Section -------*/
+.features {
+    background: #343434;
+    display: grid;
+    padding: 0 10px;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 5px;
+}
+.feature {
+    display: flex;
+    padding: 15px 0;
+    border-right: 1px solid white;
+    justify-content: center;
+    align-items: center;
+}
+.last-feature {
+    border: none;
+    padding: 3px;
+}
+.feature i {
+    font-size: 18px;
+    color: #CE9E2B;
+}
+.feature .down i {
+    font-size: 10px;
+}
+.feature .feature-text {
+    margin: 0 5px;
+    padding: 5px;
+}
+.feature .feature-text h6 {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+    color: white;
+}
+.feature .feature-text p {
+    font-size: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700px;
+    color: white;
+}
+
+
+/*------- image Section ------- */
+.image {
+    margin: 50px;
+}
+.image img {
+    width: 100%;
+}
+
+
+/*------- Testimonial Section -------*/
+.testimony {
+    background-color: #E8E3D2;
+    margin: 35px 0;
+    background-size: cover;
+    display: grid;
+    padding: 35px 0;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+.testimony .right-testimony img {
+    width: 100%;
+}
+.testimony .left-testimony {
+    padding: 15px 15px 15px 50px;
+}
+.testimony .left-testimony p {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: #471B0E;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.testimony .left-testimony p.bold-text{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: black;
+    margin-bottom: 1rem;
+}
+.testimony .left-testimony p.light-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: #343434;
+    margin-bottom: 1rem;
+}
+.testimony .left-testimony h1{
+    font-weight: 800;
+    font-size: 32px;
+    color: #343434;
+    font-family: 'Cormorant Garamond', serif;
+}
+.testimony .left-testimony span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #CE9E2B;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.testimony .left-testimony .dots{
+    display: flex;
+    margin-top: 15px;
+}
+.testimony .left-testimony .dots .dot{
+    width: 4px;
+    height: 4px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid #471B0E;
+}
+.testimony .left-testimony .dots .fill-up{
+    background: #471B0E;
+}
+
+
+/*------- Appointment Section -------*/
+.appointment{
+    background-color: #471B0E;
+    padding: 30px ;
+    text-align: center;
+}
+.appointment h3{
+    font-weight: 800;
+    font-size: 22px;
+    color: White;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 1rem;
+}
+.appointment a {
+    text-decoration: none;
+}
+.appointment a.btn {
+    background-color: white;
+    color: #471B0E;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+/*------- Footer Section -------*/
+
+.footer{
+    background: #F5F5F5;
+    padding: 15px;
+    text-align: center;
+}
+.footer span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #343434;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.footer span i{
+    font-weight: 400;
+    font-size: 9px;
+    color: #343434;
+}
+
+/* ----------------------------------------- */
+
+/* ----------Responsiv---------- */
+@media screen and (max-width: 776px){
+    .header {
+        padding: 20px 15px 0 15px;
+    }
+    .logo{
+        margin: 10px;
+    }
+    .navber {
+        display: block;
+    }
+    /* box 2 */
+    .menu-text ul {
+        display: block;
+    }  
+    /* box 3 */
+    .menu-button{
+        padding: 10px;
+    }
+
+
+    /* -------Banner Section------ */
+    .banner {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 35px;
+    }
+    .left-banner p {
+        margin-bottom: 1rem;
+    }
+    .left-banner h1 {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+    .banner-img {
+        width: 200px;
+        height: 250px;
+        margin: 15px auto 0 auto;
+    }
+
+
+    /* ----About Section---- */
+    .about {
+        margin: 30px 15px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .left-about {
+        width: 325px;
+        margin: auto;
+    }
+    .right-about h1 {
+        font-size: 27px;
+        margin-bottom: 1rem;
+    }
+    .right-about {
+        margin-top: 20px;
+    }
+    .right-about p {
+        font-size: 10px;
+    }
+    .right-about ul li {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+
+  /* ----Service Section---- */
+    .service{
+        padding: 30px 15px;
+    }
+    .service h1 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card {
+        padding: 10px;
+    }
+
+
+    /* ----Features Section---- */
+    .features {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature {
+        display: block;
+        padding: 5px 0;
+        border-right: none;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+
+    /* ----Image Section---- */
+    .image {
+        margin: 10px;
+    }
+    
+
+    /* ----Testimonial Section---- */
+    .testimony {
+        margin: 30px 0;
+        padding: 20px 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .testimony .right-testimony {
+        padding: 15px;
+    }    
+    .testimony .left-testimony {
+        padding: 15px;
+    }   
+    .testimony .left-testimony p.bold-text{
+        font-size: 9px;
+    }
+    .testimony .left-testimony p.light-text{
+      font-size: 9px;
+    }
+    .testimony .left-testimony h1{
+        font-size: 22px;
+    }
+    .testimony .left-testimony span{
+        font-size: 10px;
+    }
+
+
+    /* ----Appointment Section---- */
+    .appointment h3{
+        font-size: 14px;
+    }
+    .appointment a.btn {
+        font-size: 10px;
+    }
+
+    
+    /* ----Footer Section---- */
+    .footer{
+        padding: 10px;
+    }
+    .footer span{
+        font-size: 10px;
+    }
+    
+}
+
+
